@@ -6,9 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
     "prettier": "prettier --check src",
-    "prettier:fix": "prettier --write src"
+    "prettier:fix": "prettier --write src",
+    "lint": "next lint && npm run prettier"
   },
   "dependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
